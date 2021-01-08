@@ -29,11 +29,9 @@ public class LeapYear {
                     System.out.println("Jest rokiem przestepny");
                 else
                     System.out.println("Jest rokiem nie przestepny");
-            }
-            else
+            } else
                 System.out.println("Jest rokiem przestepnym");
-        }
-        else
+        } else
             System.out.println("Jest rokiem nie przestepnym");
         System.out.println();
 
@@ -42,10 +40,9 @@ public class LeapYear {
         int ileLat = 205;
         int podajRok = 2000;
 
-        int[] tablica = new int [ileLat];
-        for (int i = 0; i < tablica.length; i++)
-        {
-                tablica[i] = podajRok + i;
+        int[] tablica = new int[ileLat];
+        for (int i = 0; i < tablica.length; i++) {
+            tablica[i] = podajRok + i;
         }
         for (int a = 0; a < ileLat; a++) {
             if (((tablica[a] % 4 == 0) && (tablica[a] % 100 != 0)) || (tablica[a] % 400 == 0))
