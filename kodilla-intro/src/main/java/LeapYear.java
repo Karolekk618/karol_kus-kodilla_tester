@@ -17,6 +17,7 @@ public class LeapYear {
         else
             System.out.println(rokNiePrzestepny);
 
+
 //      DRUGI SPOSÓB
 
         System.out.println();
